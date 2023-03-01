@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <link rel="manifest" href="../manifest.json">
+
+  <meta name="mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="application-name" content="Databased">
+  <meta name="apple-mobile-web-app-title" content="Databased">
+  <meta name="theme-color" content="#101010">
+  <meta name="msapplication-navbutton-color" content="#101010">
+  <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+  <meta name="msapplication-starturl" content="/">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+  <link rel="icon" type="image/png" sizes="192x192" href="../img/icon-192x192.png">
+  <link rel="apple-touch-icon" type="image/png" sizes="192x192" href="../img/icon-192x192.png">
+  <link rel="icon" type="image/png" sizes="256x256" href="../img/icon-256x256.png">
+  <link rel="apple-touch-icon" type="image/png" sizes="256x256" href="../img/icon-256x256.png">
+  <link rel="icon" type="image/png" sizes="384x384" href="../img/icon-384x384.png">
+  <link rel="apple-touch-icon" type="image/png" sizes="384x384" href="../img/icon-384x384.png">
+  <link rel="icon" type="image/png" sizes="512x512" href="../img/icon-512x512.png">
+  <link rel="apple-touch-icon" type="image/png" sizes="512x512" href="../img/icon-512x512.png">
+
+  <title>Databased | IISc's Undergraduate CS Club</title>
+  <link rel="stylesheet" href="../css/common.css">
+  <link rel="stylesheet" href="../css/index.css">
+  <link rel="icon" href=".././img/favicon-32x32.png" type="image/x-icon">
+</head>
+
+<body>
+  <header>
+    <nav>
+
+
+      <div class="nav-box">
+
+        <a href="../index.html" class="headerLogo">
+          <img src="../img/Logo_transparent.png">
+        </a>
+
+        <a href="../index.html" class="nav-list-link">Home</a>
+        <a href="#myInput" class="nav-list-link">Problems</a>
+
+        <a id="nav-hamburger" data-state="inactive">
+          <span></span><span></span><span></span>
+          <p>&times;</p>
+        </a>
+
+      </div>
+    </nav>
+
+    <div id="mobileMenu">
+      <a href="../index.html" class="nav-list-link">Home</a>
+      <a href="#myInput" class="nav-list-link">Problems</a>
+    </div>
+
+  </header>
+
+  <div id="main_heading">
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <div class="title2">
+      Practice
+    </div>
+    <br>
+    <div class="subtitle2">
+      Practice your coding skills with our curated list of problems.
+    </div>
+
+  </div>
+  <main>
+    <input type="text" id="myInput" onkeyup="myFunction()" placeholder="Search by Category..">
+
+<table id="myTable">
+  <tr class="header">
+    <th style="width:40%;">Problem</th>
+    <th onclick="sortTable(1)" style="width:20%;">Category</th>
+    <th onclick="sortTableNum(2)" style="width:20%;">Difficulty</th>
+    <th onclick="sortTable(3)" style="width:20%;">Status</th>
+  </tr>
+  <tr>
+    <td>P1</td>
+    <td>Linked Lists</td>
+    <td>1</td>
+    <td>Not Completed</td>
+  </tr>
+  <tr>
+    <td>P2</td>
+    <td>Array</td>
+    <td>3</td>
+    <td>Not Completed</td>
+  </tr>
+  <tr>
+    <td>P3</td>
+    <td>Array</td>
+    <td>4</td>
+    <td>Not Completed</td>
+  </tr>
+  <tr>
+    <td>P4</td>
+    <td>Python</td>
+    <td>2</td>
+    <td>Not Completed</td>
+  </tr>
+  <tr>
+    <td>P5</td>
+    <td>Linked Lists</td>
+    <td>5</td>
+    <td>Completed</td>
+  </tr>
+</table>
+    
+  </main>
+  
+  <footer>
+    <img src="../img/Logo_transparent.png">
+  </footer>
+  <script src="../js/common.js"></script>
+  <script src="../js/index.js"></script>
+</body>
+
+</html>  
